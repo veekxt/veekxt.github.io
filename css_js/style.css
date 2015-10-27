@@ -126,6 +126,7 @@ height:25px;
 input[name="page_count"]{
     width:30px;
     height:11px;
+    padding:1px;
 }
 
 footer{
