@@ -2,8 +2,9 @@
 *
 * @autor : veekxt
 * @url : veekxt.com
-* ^_^
+* 
 * @time : 2015-10-27
+* 
 */
 body{
         background-color: #fff;
@@ -55,6 +56,7 @@ div{
 #content{
     width:1120px;
     background:#fff;
+    line-height:24px;
     margin:0 auto;
 }
 #content li{
@@ -112,14 +114,20 @@ list-style-type:none;
 }
 .list_article #fen-page{
     text-align:center;
+    padding:9px 20px;
     
 }
 .list_article #fen-page a{
     margin:0 50px;
 }
+input{
+height:25px;
+}
 input[name="page_count"]{
     width:30px;
+    height:11px;
 }
+
 footer{
     text-align:center;
     display:block;
