@@ -1,0 +1,17 @@
+#markdown: rdiscount
+permalink: /:year/:month-:day-:title.html
+destination: _site
+url: veekxt.github.io
+name: Veekxt
+author: Veekxt
+email: veekxt@gmail.com
+duoshuo: onepoint
+github: veekxt
+#gitcafe: veekxt
+highlighter: pygments
+#safe: false
+#paginate: 30
+#truncate: false
+myurl: veekxt.com
+#auto: true
+baseurl:  
