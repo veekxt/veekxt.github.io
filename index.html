@@ -1,5 +1,24 @@
 ---
 layout: default
 ---
+  <div id="content"> 
 
-<p>text</p>
+{% include category_date.html %}
+{% include category.html %}
+
+   <div class="list_article"> 
+    <ul> 
+     <li><span>这是一个标题</span></li> 
+     <li><a target='_blank' href='#'>列表测试</a></li> 
+     <li><a target='_blank' href='#'>列表测试</a></li> 
+     <li><a target='_blank' href='#'>列表测试</a></li> 
+     <li id="fen-page">
+      <a href='#'>上一页</a>
+      <input type="text" name="page_count">
+      /234&nbsp;
+      <input type="button" name="jump_to_page" value="跳转">
+      <a href='#'>下一页</a>
+     </li> 
+    </ul> 
+   </div> 
+</div>
