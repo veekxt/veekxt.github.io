@@ -74,12 +74,13 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 	padding: 0 15px;
 	color: #333;
 	text-decoration: none;
-	line-height: 50px
+	line-height: 50px;
+	border-radius:3px;
 }
 
 .nav ul li a:hover {
-	background: #d7d7d7;
-	color: #4078c0
+	background: #EBF8D1;
+	color: #00f
 }
 
 .my {
