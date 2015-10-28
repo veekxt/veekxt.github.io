@@ -1,153 +1,187 @@
-/***
-*
-* @autor : veekxt
-* @url : veekxt.com
-* 
-* @time : 2015-10-27
-* 
-*/
-body{
-        background-color: #fff;
-        color: #333;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 14px;
-        /*line-height: 100%;*/
-        margin: 0;
-        padding: 0;
-}
-div{
-    margin:0px;
-}
-.nav{
-    width:100%;
-    height:50px;
-    margin:0 auto;
-    padding-bottom:0;
-    background:#fff;
-    border-color:#e0e0e0;
-    border-width:1px;
-    border-style:none none solid none;
-}
-.nav ul{
-    width: 100%;
-    margin: 0 auto;
-    margin-left:15px;
-    padding: 0 0;
-    list-style-type:none;
-}
-.link_github{margin-right:20px !important;float:right !important;}
-.nav ul li{
-    float: left;
-    margin-right: 0.6em;
-}
-.nav ul li a{
-    color:#333;
-    padding: 0 15px;
-    position: relative;
-    margin: 0 auto;
-    display: block;
-    line-height: 50px;
-    text-decoration: none;
-}
-.nav ul li a:hover{color:#fff;background:#545CF7;}
-.my{
-    font-size:24px;
-}
-#content{
-    width:1120px;
-    background:#fff;
-    line-height:24px;
-    margin:0 auto;
-}
-#content li{
-list-style-type:none;
-}
-.list_article{
-  background: #fff;
-  width:808px;
-  margin:40px 7px;
-  float:left;
-}
-.categories{
-    /*width:250px;*/
-    background:#fff;
-    /*float:right;*/
-}
-.other{
-    background:#fff;
-}
-#other_list{
-    width:250px;
-    background:#fff;
-    float:right;
-    margin:40px 0 0 0;
-}
-#other_list ul{
-    padding: 0 0;
-    border-width:1px;
-    border-style:solid solid none solid;
-    border-color:#e0e0e0;
-}
-#other_list li{
-    color:#333;
-    text-align:left;
-    border-color:#e0e0e0;
-    border-width:1px;
-    border-style:none none solid none;
-    padding:7px 17px;
+body {
+	padding: 0;
+	background-color: #fff;
+	color: #333;
+	font-size: 14px;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
-.list_article ul{
-    padding: 0 0;
-    border-width:1px;
-    border-style:solid solid none solid;
-    border-color:#e0e0e0;
+body,div {
+	margin: 0
 }
- .list_article ul li{
-    font-size:16px;
-    color:#333;
-    text-align:left;
-    border-color:#e0e0e0;
-    border-width:1px;
-    border-style:none none solid none;
-    padding:10px 20px;
-}
-.list_article #fen-page{
-    text-align:center;
-    padding:9px 20px;
-    
-}
-.list_article #fen-page a{
-    margin:0 50px;
-}
-input{
-height:25px;
-}
-input[name="page_count"]{
-    width:30px;
-    height:11px;
-    padding:1px;
+a{color:#00C;text-decoration:none;} /*链接颜色*/
+a:visited{color:#00C;} /*已点击链接颜色*/
+a:hover{color:#00c;text-decoration:underline;} /*链接指向颜色*/
+
+
+.nav {
+	padding-bottom: 0;
+	height: 50px;
+	border-color: #e0e0e0;
+	border-style: none none solid;
+	border-width: 1px;
+	background: #fff
 }
 
-footer{
-    text-align:center;
-    display:block;
-    border-top: 1px dashed #CCC;
-    width: 100%;
-    clear:both;
-    bottom:2px;
+.nav,.nav ul {
+	margin: 0 auto;
+	width: 100%
 }
+
+.nav ul {
+	margin-left: 15px;
+	padding: 0;
+	list-style-type: none
+}
+
+.link_github {
+	float: right!important;
+	margin-right: 20px!important
+}
+
+.nav ul li {
+	float: left;
+	margin-right: .6em
+}
+
+.nav ul li a {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0 15px;
+	color: #333;
+	text-decoration: none;
+	line-height: 50px
+}
+
+.nav ul li a:hover {
+	background: #e0e0e0;
+	color: #00f
+}
+
+.my {
+	font-size: 24px
+}
+
+#content {
+	margin: 0 auto;
+	width: 70pc;
+	background: #fff;
+	line-height: 24px
+}
+
+#content li {
+	list-style-type: none
+}
+
+.list_article {
+	float: left;
+	margin: 40px 7px;
+	width: 820px
+}
+
+.categories,.list_article {
+	background: #fff
+}
+
+#other_list,.other {
+	background: #fff
+}
+
+#other_list {
+	float: right;
+	margin: 40px 0 0;
+	width: 250px
+}
+
+#other_list ul {
+	padding: 0;
+	border-style: solid solid none
+}
+
+#other_list li,#other_list ul {
+	border-color: #e0e0e0;
+	border-width: 1px
+}
+
+#other_list li {
+	padding: 7px 17px;
+	border-style: none none solid;
+	color: #333;
+	text-align: left
+}
+
+.list_article ul {
+	padding: 0;
+	border-style: solid solid none
+}
+
+.list_article ul,.list_article ul li {
+	border-color: #e0e0e0;
+	border-width: 1px
+}
+
+.list_article ul li {
+	padding: 10px 20px;
+	border-style: none none solid;
+	color: #333;
+	text-align: left;
+	font-size: 1pc
+}
+
+.list_article #fen-page {
+	padding: 9px 20px;
+	text-align: center
+}
+
+.list_article #fen-page a {
+	margin: 0 50px
+}
+
+input {
+	height: 25px
+}
+
+input[name=page_count] {
+	padding: 1px;
+	width: 30px;
+	height: 11px
+}
+
+#article {
+	float: left;
+	margin: 55px 7px;
+	width: 808px;
+	border: 1px solid #e0e0e0;
+	background: #fff
+	
+}
+#article_title{
+    padding:10px;
+}
+article{
+    padding:14px 16px;
+}
+footer {
+	bottom: 2px;
+	clear: both;
+	display: block;
+	width: 100%;
+	border-top: 1px dashed #ccc;
+	text-align: center
+}
+
 footer small {
-font-size: 13px;
-color: #AAA;
+	color: #aaa;
+	font-size: 13px
 }
 
 footer a {
-color: #0000ff;
-text-decoration: none;
+	color: #00f;
+	text-decoration: none
 }
 
 footer a:hover {
-border-bottom: 1px dashed #BBB;
-text-decoration: none;
+	border-bottom: 1px dashed #bbb;
+	text-decoration: none
 }
