@@ -108,6 +108,7 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 }
 #article {
 	float: left;
+	padding:1.5em 1em;
 	margin: 55px 7px 7px 40px;
 	border: 1px solid #d7d7d7;
 	background-color:#fff;
@@ -185,11 +186,6 @@ input[name=page_count] {
 	height: 11px
 }
 
-
-.article_title{
-    padding:10px;
-    background-color:#FFF;
-}
 article{
     padding:14px 16px;
 }
@@ -208,12 +204,6 @@ footer small {
 	font-size: 12px
 }
 
-footer a {
-	color: #4078c0;
-	text-decoration: none
-}
+.ds-powered-by{display: none;}
+.ds-meta{display: none;}
 
-footer a:hover {
-	border-bottom: 1px dashed #bbb;
-	text-decoration: none
-}
