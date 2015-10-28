@@ -5,23 +5,24 @@
 * ^_^
 * main css file for jekyll theme
 */
-body {
+body,div {
+    margin: 0;
 	padding: 0;
-	background-color: #fff;
+	background-color: #FcFfFc;
 	color: #333;
 	font-size: 14px;
 	font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
 }
 
-body,div {
-	margin: 0
+div {
+	border-radius:4px;
 }
 a{color:#4078c0;text-decoration:none;} /*链接颜色*/
 a:visited{color:#4078c0;} /*已点击链接颜色*/
 a:hover{color:#4078c0;text-decoration:underline;} /*链接指向颜色*/
 
 
-blockquote{display:block;text-align:justify;border-left:4px solid #e0e0e0;background-color: #f8f8f8;}
+blockquote{display:block;text-align:justify;border-left:4px solid #d7d7d7;background-color: #f8f8f8;}
 blockquote{margin:0.8em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
@@ -39,10 +40,10 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 .nav {
 	padding-bottom: 0;
 	height: 50px;
-	border-color: #e0e0e0;
+	border-color: #d7d7d7;
 	border-style: none none solid;
 	border-width: 1px;
-	background: #fff
+	background-color:#fff;
 }
 
 .nav,.nav ul {
@@ -77,7 +78,7 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 }
 
 .nav ul li a:hover {
-	background: #e0e0e0;
+	background: #d7d7d7;
 	color: #4078c0
 }
 
@@ -88,7 +89,6 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 #content {
 	margin: 0 auto;
 	width: 90%;
-	background: #fff;
 	line-height: 24px
 }
 
@@ -97,13 +97,10 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 	list-style-position:inside;
 }
 
-#article ul{list-style-type:disc;}
-#article ul ul{list-style-type:circle;}
-
-
 .list_article,#article{
     width: 66%;
     max-width:810px;
+    
 }
 .list_article {
 	float: left;
@@ -112,15 +109,17 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 #article {
 	float: left;
 	margin: 55px 7px 7px 40px;
-	border: 1px solid #e0e0e0;
+	border: 1px solid #d7d7d7;
+	background-color:#fff;
 }
-
+#article ul{list-style-type:disc;}
+#article ul ul{list-style-type:circle;}
 .categories,.list_article {
-	background: #fff
+
 }
 
 #other_list,.other {
-	background: #fff
+
 }
 
 #other_list {
@@ -130,12 +129,14 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 }
 
 #other_list ul {
+border-radius:4px;
+background:#FFF;
 	padding: 0;
 	border-style: solid solid none
 }
 
 #other_list li,#other_list ul {
-	border-color: #e0e0e0;
+	border-color: #d7d7d7;
 	border-width: 1px
 }
 
@@ -148,11 +149,12 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 
 .list_article ul {
 	padding: 0;
-	border-style: solid solid none
+	border-style: solid solid none;
+	background-color:#fff;border-radius:4px;
 }
 
 .list_article ul,.list_article ul li {
-	border-color: #e0e0e0;
+	border-color: #d7d7d7;
 	border-width: 1px
 }
 
@@ -184,8 +186,9 @@ input[name=page_count] {
 }
 
 
-#article_title{
+.article_title{
     padding:10px;
+    background-color:#FFF;
 }
 article{
     padding:14px 16px;
