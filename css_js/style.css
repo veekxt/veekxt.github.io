@@ -9,10 +9,23 @@ body {
 body,div {
 	margin: 0
 }
-a{color:#00C;text-decoration:none;} /*链接颜色*/
-a:visited{color:#00C;} /*已点击链接颜色*/
-a:hover{color:#00c;text-decoration:underline;} /*链接指向颜色*/
+a{color:#4078c0;text-decoration:none;} /*链接颜色*/
+a:visited{color:#4078c0;} /*已点击链接颜色*/
+a:hover{color:#4078c0;text-decoration:underline;} /*链接指向颜色*/
 
+
+blockquote{display:block;text-align:justify;border-left:4px solid #e0e0e0;background-color: #f8f8f8;}
+blockquote{margin:0.8em 0em;padding-left:1.5em;}
+blockquote p{margin:0;padding:.5em 0;}
+
+code{background-color:#D8ECFA;padding:1px 2px;margin:0;border-radius: 2px;}
+
+pre code{margin:.9em 0;font-size:15px;line-height:1.45;display:block;overflow:auto;background-color:#f5fcf5;margin-left:1em;margin-right:1em;padding:7px;border-radius:3px;/*border: #0099CC solid 1px;*/}
+
+#article ul, #article ol {
+	padding-left: 2em;
+	
+}
 
 .nav {
 	padding-bottom: 0;
@@ -56,7 +69,7 @@ a:hover{color:#00c;text-decoration:underline;} /*链接指向颜色*/
 
 .nav ul li a:hover {
 	background: #e0e0e0;
-	color: #00f
+	color: #4078c0
 }
 
 .my {
@@ -70,9 +83,13 @@ a:hover{color:#00c;text-decoration:underline;} /*链接指向颜色*/
 	line-height: 24px
 }
 
-#content li {
-	list-style-type: none
+#content ul {
+	list-style-type: none;
+	list-style-position:inside;
 }
+
+#article ul{list-style-type:disc;}
+#article ul ul{list-style-type:circle;}
 
 .list_article {
 	float: left;
@@ -177,7 +194,7 @@ footer small {
 }
 
 footer a {
-	color: #00f;
+	color: #4078c0;
 	text-decoration: none
 }
 
