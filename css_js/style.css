@@ -1,9 +1,16 @@
+/***
+* @autor: veekxt@gmai.com
+* @time: 2015-10-28
+* 
+* ^_^
+* main css file for jekyll theme
+*/
 body {
 	padding: 0;
 	background-color: #fff;
 	color: #333;
 	font-size: 14px;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+	font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
 }
 
 body,div {
@@ -20,7 +27,9 @@ blockquote p{margin:0;padding:.5em 0;}
 
 code{background-color:#D8ECFA;padding:1px 2px;margin:0;border-radius: 2px;}
 
-pre code{margin:.9em 0;font-size:15px;line-height:1.45;display:block;overflow:auto;background-color:#f5fcf5;margin-left:1em;margin-right:1em;padding:7px;border-radius:3px;/*border: #0099CC solid 1px;*/}
+pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.9em 0;font-size:15px;line-height:1.45;display:block;overflow:auto;background-color:#F2F8FC;margin-left:1em;margin-right:0.5em;padding:7px;border-radius:3px;/*border: #0099CC solid 1px;*/}
+
+
 
 #article ul, #article ol {
 	padding-left: 2em;
