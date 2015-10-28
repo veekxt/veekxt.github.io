@@ -100,10 +100,19 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 #article ul{list-style-type:disc;}
 #article ul ul{list-style-type:circle;}
 
+
+.list_article,#article{
+    width: 66%;
+    max-width:810px;
+}
 .list_article {
 	float: left;
 	margin: 40px 7px 7px 40px;
-	width: 820px
+}
+#article {
+	float: left;
+	margin: 55px 7px 7px 40px;
+	border: 1px solid #e0e0e0;
 }
 
 .categories,.list_article {
@@ -117,7 +126,7 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 #other_list {
 	float: left;
 	margin: 45px 0 0;
-	width: 23%
+	width: 18%
 }
 
 #other_list ul {
@@ -174,14 +183,7 @@ input[name=page_count] {
 	height: 11px
 }
 
-#article {
-	float: left;
-	margin: 55px 7px 7px 40px;
-	width: 79%;
-	border: 1px solid #e0e0e0;
-	background: #fff
-	
-}
+
 #article_title{
     padding:10px;
 }
