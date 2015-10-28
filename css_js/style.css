@@ -47,7 +47,7 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 
 .nav,.nav ul {
 	margin: 0 auto;
-	width: 100%
+	width: 99%
 }
 
 .nav ul {
@@ -188,6 +188,7 @@ input[name=page_count] {
 article{
     padding:14px 16px;
 }
+.page_nav{display:block;margin-left:2em;}
 footer {
 	bottom: 2px;
 	clear: both;
