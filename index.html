@@ -1,7 +1,8 @@
 ---
 layout: default
+title: 文章列表
 ---
-  <div id="content"> 
+<div id="content"> 
 <div id="other_list"> 
 
 {% include category.html %}
@@ -9,17 +10,40 @@ layout: default
 </div>
    <div class="list_article"> 
     <ul> 
-     <li><span>这是一个标题</span></li> 
-     <li><a target='_blank' href='#'>列表测试</a></li> 
-     <li><a target='_blank' href='#'>列表测试</a></li> 
-     <li><a target='_blank' href='#'>列表测试</a></li> 
+     <li><span class='title_of_list'>{{ page.title }}</span></li>
+     {% comment %}
+      //判断分页是否可用 paginator is avalable or not
+     {% endcomment %}
+     
+     {% assign which_posts = site %}
+     {% if site.paginate %}
+        {% assign which_posts = paginator %}
+     {% endif %}
+     {% for post in which_posts.posts %}
+     <li>
+        <time class="post_time">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <a target="_blank" class='post_link' href="{{ site.baseurl }} {{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+     </li>
+     {% endfor %}
+     {% if site.paginate %}
      <li id="fen-page">
-      <a href='#'>上一页</a>
-      <input type="text" name="page_count">
-      /234&nbsp;
-      <input type="button" name="jump_to_page" value="跳转">
-      <a href='#'>下一页</a>
+     {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">上一页</a>
+     {% else %}
+        <span class="previous_disabled">上一页</span>
+     {% endif %}
+
+      <input value="{{ paginator.page }}" type="text" name="page_count">&nbsp;
+      <input type="button" name="jump_to_page" value="跳页">
+      (共{{ paginator.total_pages }}页)
+      
+     {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">下一页</a>
+     {% else %}
+        <span class="previous disabled">下一页</span>
+     {% endif %}
      </li> 
+     {% endif %}
     </ul> 
    </div> 
 </div>

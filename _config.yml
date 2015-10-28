@@ -1,17 +1,17 @@
 #markdown: rdiscount
 permalink: /:year/:month-:day-:title.html
 destination: _site
-url: veekxt.github.io
-name: Veekxt
-author: Veekxt
-email: veekxt@gmail.com
-duoshuo: onepoint
-github: veekxt
+name: VeekXT 's blog    #将会显示在左上角
+author: Veekxt  
+email: veekxt@gmail.com #邮箱
+duoshuo: onepoint #务必改成自己的多说账号或删除此项 
+github: veekxt   #github账号，用于构建github链接
 #gitcafe: veekxt
-highlighter: pygments
+#highlighter: pygments
 #safe: false
-#paginate: 30
+paginate: 20   #每页文章个数
+paginate_path: "/blog/page:num/" #此项不可更改
 #truncate: false
-myurl: veekxt.com
+myurl: http://blog.veekxt.com #首页url,加上http
 #auto: true
 baseurl: ""
