@@ -2,7 +2,7 @@
 layout: default
 ---
 
-  <div id="content"> 
+<div id="content"> 
 <div id="other_list"> 
 
 {% include category.html %}
@@ -18,18 +18,18 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-<br />
+<hr />
 <span class='page_nav'>
 {% if page.previous %}
 上一篇: <a href='{{ site.baseurl }}{{ page.previous.url }}'>{{ page.previous.title }}</a>
 {% else %}
-上一篇: <span >没有了</span>
+上一篇: <span >这是第一篇</span>
 {% endif %}
 <br />
 {% if page.next %}
 下一篇: <a href='{{ site.baseurl }}{{ page.next.url }}'>{{ page.next.title }}</a>
 {% else %}
-下一篇: <span >没有了</span>
+下一篇: <span >这是最后一篇了</span>
 {% endif %}
 </span>
 <br />

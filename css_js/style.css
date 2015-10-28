@@ -13,7 +13,7 @@ body,div {
 	font-size: 14px;
 	font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
 }
-
+hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #d0d0d0;}
 div {
 	border-radius:4px;
 }
@@ -188,6 +188,7 @@ article{
 }
 .page_nav{display:block;margin-left:2em;}
 footer {
+    margin-top:1em;
 	bottom: 2px;
 	clear: both;
 	display: block;
