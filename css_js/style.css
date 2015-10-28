@@ -20,7 +20,13 @@ div {
 a{color:#4078c0;text-decoration:none;} /*链接颜色*/
 a:visited{color:#4078c0;} /*已点击链接颜色*/
 a:hover{color:#4078c0;text-decoration:underline;} /*链接指向颜色*/
+h1,h2,h3,h4,h5,h6{
 
+border-left-color: #E4F9DF;
+border-left-style: solid;
+border-left-width: 5px;
+padding:6px 0 10px 6px;
+}
 
 blockquote{display:block;text-align:justify;border-left:4px solid #d7d7d7;background-color: #f8f8f8;}
 blockquote{margin:0.8em 0em;padding-left:1.5em;}
@@ -79,7 +85,7 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 }
 
 .nav ul li a:hover {
-	background: #EBF8D1;
+	background: #F2F8FC;
 	color: #00f
 }
 
