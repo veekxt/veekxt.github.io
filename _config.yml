@@ -6,7 +6,8 @@ myname: VeekXT  #你的名字，显示在页脚和文章开始
 email: veekxt@gmail.com #邮箱
 duoshuo: onepoint #务必改成自己的多说账号或删除此项 
 github: veekxt   #github账号，用于构建github链接
+project: veekxt_blog #github上的仓库名
 paginate: 20   #每页文章个数
 paginate_path: "/blog/page:num/" #此项不可更改
-myurl: http://blog.veekxt.com #首页url,加上http
+myurl: http://blog.veekxt.com #确保此url指向你的首页
 baseurl: ""

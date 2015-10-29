@@ -32,9 +32,23 @@ title: 文章列表
      {% else %}
         <span class="previous_disabled">上一页</span>
      {% endif %}
-
-      <input value="{{ paginator.page }}" type="text" name="page_count">&nbsp;
-      <input type="button" name="jump_to_page" value="跳页">
+      <script>
+        function jump_to_page()
+        {
+        
+        if(parseInt(document.getElementById("page_count").value) < 2)
+        {
+            window.location.href="{{ site.baseurl }}/index.html";
+        }
+        else
+        {
+        window.location.href="{{ site.baseurl }}/blog/page"+document.getElementById("page_count").value;
+        }
+        }
+        </script>
+      <input value="{{ paginator.page }}" type="text" id="page_count">&nbsp;
+        <input type="button" id="jump_to_page" value="跳页" onClick="jump_to_page()">
+      
       (共{{ paginator.total_pages }}页)
       
      {% if paginator.next_page %}

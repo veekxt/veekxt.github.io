@@ -1,8 +1,35 @@
 <div class="other"> 
 <ul> 
 <li><span class='title_of_list' >日期归档</span></li> 
-<li><a target='_blank' href='#'>2015年12月</a></li> 
-<li><a target='_blank' href='#'>2015年11月</a></li> 
-<li><a target='_blank' href='#'>2015年10月</a></li> 
+
+{% assign count = 1 %}
+{% assign s_date = null %}
+{% assign t_date = null %}
+{% for post in site.posts %}
+{% capture t_date %}{{post.date | date:"%Y年%m月"}}{% endcapture %}
+
+{% if t_date == s_date %}
+    {% capture count %}{{ count | plus:1 }}{% endcapture %}
+    {% if post.previous == null %}
+        <li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> ({{ count }})</li>
+    {% endif %}
+    
+{% else %}
+
+    {% if post.next != null %}
+        <li><a href='{{ site.baseurl }}/category_date#{{ s_date }}'>{{ s_date }}</a> ({{ count }})</li>
+        {% capture count %}1{% endcapture %}
+        {% if post.previous == null %}
+                    <li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> ({{ count }})</li>
+        {% endif %}
+    {% else %}
+        {% if post.previous == null %}
+            <li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> (1)</li>
+        {% endif %}
+    {% endif %}
+{% endif %}
+{% capture s_date %}{{ t_date }}{% endcapture %}
+{% endfor %}
+
 </ul> 
 </div> 

@@ -184,7 +184,7 @@ background:#FFF;
 }
 
 
-input[name=page_count] {
+input[id=page_count] {
 	padding: 1px;
 	width: 30px;
 }
