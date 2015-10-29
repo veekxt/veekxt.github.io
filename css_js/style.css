@@ -27,11 +27,11 @@ border-left-width: 5px;
 padding:6px 0 10px 6px;
 }
 h1{font-size:26px}
-h2{font-size:24px}
-h3{font-size:22px}
-h4{font-size:20px}
-h5{font-size:18px}
-h6{font-size:16px}
+h2{font-size:22px}
+h3{font-size:18px}
+h4{font-size:14px}
+h5{font-size:13px}
+h6{font-size:13px}
 blockquote{display:block;text-align:justify;border-left:4px solid #d7d7d7;background-color: #f8f8f8;}
 blockquote{margin:0.8em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
