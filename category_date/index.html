@@ -2,31 +2,17 @@
 layout: list
 ---
 <ul>
-
 {% assign count = 1 %}
 {% assign s_date = null %}
 {% assign t_date = null %}
 {% for post in site.posts %}
 {% capture t_date %}{{post.date | date:"%Y年%m月"}}{% endcapture %}
-{% if t_date == s_date %}
-    {% capture count %}{{ count | plus:1 }}{% endcapture %}
-    {% if post.previous == null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> ({{ count }})</li>
-    {% endif %}
-{% else %}
-    {% if post.next != null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ s_date }}'>{{ s_date }}</a> ({{ count }})</li>
-        {% capture count %}1{% endcapture %}
-        {% if post.previous == null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> ({{ count }})</li>
-        {% endif %}
-    {% else %}
-        {% if post.previous == null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> (1)</li>
-        {% endif %}
-    {% endif %}
+{% if t_date == s_date %}{% else %}
+<li id='{{ t_date }}' class='title_of_list'><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a></li>
 {% endif %}
 {% capture s_date %}{{ t_date }}{% endcapture %}
+<li>
+<time class='post_time' datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>  <a target="_blank" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class='post_link'>{{ post.title }}</a>
+</li>
 {% endfor %}
-
-</ul> 
+</ul>

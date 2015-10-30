@@ -211,7 +211,35 @@ footer small {
 	color: #aaa;
 	font-size: 12px
 }
+
+table{
+	margin: 16px;
+}
+
+table {
+	font-family: verdana,arial,sans-serif;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table th {
+	border-width: 1px;
+	padding: 6px;
+	border-style: solid;
+	border-color: #bbb;
+	background-color: #EEE;
+}
+table td {
+	border-width: 1px;
+	padding: 6px;
+	border-style: solid;
+	border-color: #ccc;
+	background-color: #FFF;
+}
+
 .post_info{font-size:13px;}
+.cate_info{font-size:13px;float:right;}
 .title_of_list{font-size:19px;color:#000;background-color:#F4F4FF;}
 .post_time{font-size:14px;}
 .post_link{margin-left:1em;}

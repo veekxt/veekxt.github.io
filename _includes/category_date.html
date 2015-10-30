@@ -9,23 +9,21 @@
 {% capture t_date %}{{post.date | date:"%Y年%m月"}}{% endcapture %}
 {% if t_date == s_date %}
     {% capture count %}{{ count | plus:1 }}{% endcapture %}
-    {% if post.previous == null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> ({{ count }})</li>
+    {% if post.previous == null %} ({{ count }})</li>
     {% endif %}
 {% else %}
-    {% if post.next != null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ s_date }}'>{{ s_date }}</a> ({{ count }})</li>
-        {% capture count %}1{% endcapture %}
-        {% if post.previous == null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> ({{ count }})</li>
-        {% endif %}
-    {% else %}
-        {% if post.previous == null %}
-<li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a> (1)</li>
-        {% endif %}
+    {% if post.next ！= null %} ({{ count }})</li>
+    {% endif %}
+    <li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a>
+    {% capture count %}1{% endcapture %}
+    {% if post.previous == null %} ({{ count }})</li>
     {% endif %}
 {% endif %}
 {% capture s_date %}{{ t_date }}{% endcapture %}
 {% endfor %}
 </ul> 
-</div> 
+</div>
+
+
+
+
