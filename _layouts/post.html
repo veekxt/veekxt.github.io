@@ -1,15 +1,7 @@
 ---
-layout: default
+layout: page
 ---
 
-<div id="content"> 
-<div id="other_list"> 
-
-{% include category.html %}
-{% include category_date.html %}
-</div>
-
-<div id=article>
 <div class='article_title'>
 <h1>{{ page.title }}</h1>
 <span class='post_info' >时间：{{ page.date | date: "%Y-%m-%d" }}，作者：<a href='{{ site.baseurl }}/other/about' target='_blank' >{{ site.myname }}</a></span>
@@ -34,6 +26,3 @@ layout: default
 </span>
 <br />
 {% include comments.html %}
-</div>
-
-</div>

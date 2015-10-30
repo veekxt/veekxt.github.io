@@ -1,16 +1,9 @@
 ---
-layout: default
+layout: list
 title: 文章列表
 ---
-<div id="content"> 
-<div id="other_list"> 
-
-{% include category.html %}
-{% include category_date.html %}
-</div>
-   <div class="list_article"> 
     <ul> 
-     <li><span class='title_of_list'>{{ page.title }}</span></li>
+     <li class='title_of_list'><span>{{ page.title }}</span></li>
      {% comment %}
       //判断分页是否可用 paginator is avalable or not
      {% endcomment %}
@@ -59,6 +52,3 @@ title: 文章列表
      </li> 
      {% endif %}
     </ul> 
-   </div> 
-</div>
-</div>

@@ -1,6 +1,7 @@
-<div class="other"> 
-<ul> 
-<li class='title_of_list'><span>日期归档</span></li> 
+---
+layout: list
+---
+<ul>
 
 {% assign count = 1 %}
 {% assign s_date = null %}
@@ -27,5 +28,5 @@
 {% endif %}
 {% capture s_date %}{{ t_date }}{% endcapture %}
 {% endfor %}
+
 </ul> 
-</div> 

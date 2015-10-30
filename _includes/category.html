@@ -1,10 +1,7 @@
 <div class="categories"> 
 <ul> 
-<li><span class='title_of_list'>分类</span></li>
-
+<li class='title_of_list'><span>分类</span></li>
 {% for cat in site.categories %}
-    <li><a href="{{ site.baseurl }}/category#{{ cat[0] }}" title="{{ cat[0] }}">{{ cat[0] }}</a> ({{ cat[1].size }})</li> 
-{% endfor %}
-
+<li><a href="{{ site.baseurl }}/category/index.html#{{ cat[0] }}" title="{{ cat[0] }}">{{ cat[0] }}</a> ({{ cat[1].size }})</li>{% endfor %}
 </ul> 
 </div>

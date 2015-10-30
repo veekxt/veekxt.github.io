@@ -1,0 +1,14 @@
+---
+layout: list
+---
+<ul>
+{% for cat in site.categories %}
+  <li class='title_of_list' id="{{ cat[0] }}"><span>{{ cat[0] }}</span></li>
+{% for post in cat[1] %}
+  <li>
+  <time class='post_time' datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+  <a target="_blank" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class='post_link'>{{ post.title }}</a>
+  </li>
+{% endfor %}
+{% endfor %}
+</ul> 
