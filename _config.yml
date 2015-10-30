@@ -1,7 +1,6 @@
-#markdown: rdiscount
 permalink: /:year/:month-:day-:title.html
 destination: _site
-name: VeekXT 's blog    #将会显示在左上角
+name: VeekXT    #将会显示在左上角
 myname: VeekXT  #你的名字，显示在页脚和文章开始
 email: veekxt@gmail.com #邮箱
 duoshuo: onepoint #务必改成自己的多说账号或删除此项 
@@ -9,5 +8,5 @@ github: veekxt   #github账号，用于构建github链接
 project: veekxt_blog #github上的仓库名
 paginate: 20   #每页文章个数
 paginate_path: "/blog/page:num/" #此项不可更改
-myurl: http://blog.veekxt.com #确保此url指向你的首页
-baseurl: ""
+myurl: http://veekxt.com #此url指向你的首页
+baseurl: "" #如果是项目pages，填写为"/<项目名>"
