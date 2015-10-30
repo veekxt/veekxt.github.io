@@ -33,7 +33,7 @@ case'.':oup.value+=String.fromCharCode(a[p])}}
 
 <form>
 <p>代码(code):<input class="ismall" type=button value="<=清空" onClick="code.value=''")></p>
-<textarea id="code" cols=70 rows=10>
+<textarea style='width:80%;' id="code" cols=70 rows=10>
 ++++++++++[>+++++++>++++++++++>+++>+<<<<-]
 >++.
 >+.
@@ -49,7 +49,7 @@ case'.':oup.value+=String.fromCharCode(a[p])}}
 <input markdown="1" class="ismall" type=button value="<=清空" onClick="s_in.value=''">
 </input>
 </p>
-<textarea id="s_in" cols=70 rows=2>
+<textarea style='width:80%;' id="s_in" cols=70 rows=2>
 </textarea>
 <br />
 <input type=button value="==执行==" onClick=x(document.getElementById("code").value)>
@@ -57,7 +57,7 @@ case'.':oup.value+=String.fromCharCode(a[p])}}
 <p>输出流(output):<input class="ismall" type=button value="<=清空" onClick="s_out.value=''" />
 </input>
 </p>
-<textarea id="s_out" cols=70 rows=10>
+<textarea style='width:80%;' id="s_out" cols=70 rows=10>
 </textarea>
 </form>
 
