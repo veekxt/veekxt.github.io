@@ -1,3 +1,4 @@
+markdown: redcarpet
 permalink: /:year/:month-:day-:title.html
 destination: _site
 name: VeekXT    #将会显示在左上角

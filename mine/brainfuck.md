@@ -45,13 +45,18 @@ case'.':oup.value+=String.fromCharCode(a[p])}}
 </textarea>
 <br />
 
-<p>输入流(input):<input class="ismall" type=button value="<=清空" onClick="s_in.value=''" /></p>
+<p>输入流(input):
+<input markdown="1" class="ismall" type=button value="<=清空" onClick="s_in.value=''">
+</input>
+</p>
 <textarea id="s_in" cols=70 rows=2>
 </textarea>
 <br />
 <input type=button value="==执行==" onClick=x(document.getElementById("code").value)>
 <br />
-<p>输出流(output):<input class="ismall" type=button value="<=清空" onClick="s_out.value=''" /></p>
+<p>输出流(output):<input class="ismall" type=button value="<=清空" onClick="s_out.value=''" />
+</input>
+</p>
 <textarea id="s_out" cols=70 rows=10>
 </textarea>
 </form>
