@@ -1,0 +1,58 @@
+---
+title: BrainFuck解释器
+layout: mine
+comments: yes
+---
+
+<p>某些代码可能使脚本崩溃（比如死循环）。</p>
+<p><a href="http://{{ site.tkurl }}/other/tools/some_bf.html">一些例子在这。</a></p>
+<script>
+//this code come from http://esoteric.sange.fi/brainfuck/impl/interp/i.html 
+function x(c){
+var inp=document.getElementById("s_in");
+var oup=document.getElementById("s_out");
+var y=inp,z=c.length,v=32768,a=new Array(v),p=0,k=-1,e=new Array(z),l=new Array(z),s=new Array(z),m=127,n=-128
+for(j=0;j<v;j++){a[j]=0}
+for(j=0;j<z&&p>=0;j++){if(c.charAt(j)=='[')l[++p]=j;if(c.charAt(j)==']'){s[j]=l[p];e[l[p]]=j;p--}}
+if(p!=0){alert("Unbalanced brackets!");return}
+for(j=0;j<z;j++){switch(c.charAt(j)){
+case'#':if(document.f.d.checked){window.alert('Position within code: '+j+'\nPointer: '+p+'\nValue at pointer: '+a[p])};break
+case'<':p--;if(p<0)p=v-1;break
+case'>':p++;if(p>=v)p=0;break
+case'+':if((a[p]+1)>m)a[p]=n;else{a[p]++};break
+case'-':if((a[p]-1)<n)a[p]=m;else{a[p]--};break
+case']':j=s[j]
+case'[':if(a[p]==0)j=e[j];break
+case',':if(k+1>=y.value.length){a[p]=10;break//模拟回车键，有待确认
+u=prompt("Input required. Press Cancel to halt program execution.","")
+if(u==''||u==null){j=z;break}
+else{y.value+=u}}a[p]=y.value.charCodeAt(++k);break
+case'.':oup.value+=String.fromCharCode(a[p])}}
+}
+</script>
+
+<form>
+<p>代码(code):<input class="ismall" type=button value="<=清空" onClick="code.value=''")></p>
+<textarea id="code" cols=70 rows=10>
+++++++++++[>+++++++>++++++++++>+++>+<<<<-]
+>++.
+>+.
++++++++..
++++.
+>++.
+<<+++++++++++++++.
+>.+++.------.--------.>+.>.
+</textarea>
+<br />
+
+<p>输入流(input):<input class="ismall" type=button value="<=清空" onClick="s_in.value=''" /></p>
+<textarea id="s_in" cols=70 rows=2>
+</textarea>
+<br />
+<input type=button value="==执行==" onClick=x(document.getElementById("code").value)>
+<br />
+<p>输出流(output):<input class="ismall" type=button value="<=清空" onClick="s_out.value=''" /></p>
+<textarea id="s_out" cols=70 rows=10>
+</textarea>
+</form>
+
