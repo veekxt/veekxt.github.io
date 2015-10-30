@@ -20,18 +20,21 @@ div {
 a{color:#4078c0;text-decoration:none;} /*链接颜色*/
 a:visited{color:#4078c0;} /*已点击链接颜色*/
 a:hover{color:#4078c0;text-decoration:underline;} /*链接指向颜色*/
-h1,h2,h3,h4,h5,h6{
+h2,h3,h4,h5,h6{
 border-left-color: #E4F9DF;
 border-left-style: solid;
-border-left-width: 5px;
-padding:6px 0 10px 6px;
+border-left-width: 0;
+background-color:#F8F8F8;
+padding:5px 0px 7px 10px;
+color:#008800;
+border-radius:3px;
 }
 h1{font-size:26px}
 h2{font-size:22px}
 h3{font-size:18px}
-h4{font-size:14px}
-h5{font-size:13px}
-h6{font-size:13px}
+h4{font-size:18px}
+h5{font-size:14px}
+h6{font-size:14px}
 blockquote{display:block;text-align:justify;border-left:4px solid #d7d7d7;background-color: #f8f8f8;}
 blockquote{margin:0.8em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
@@ -194,7 +197,7 @@ input[id=page_count] {
 }
 
 article{
-    padding:14px 16px;
+    padding:2px 2px;
 }
 .page_nav{display:block;margin-left:2em;}
 footer {
