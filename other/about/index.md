@@ -1,8 +1,7 @@
 ---
 title: 关于
 layout: page
-comments: yes
-
+comments: no
 ---
   
 在这里记录一些乱七八糟的东西。  

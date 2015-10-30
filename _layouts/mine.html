@@ -18,6 +18,9 @@ layout: default
   <article class="page-content">
     {{ content }}
   </article>
+{% if page.comments %}
+{% include comments.html %}
+{% endif %}
 <br />
 </div>
 </div>

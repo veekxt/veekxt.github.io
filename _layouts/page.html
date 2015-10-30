@@ -29,5 +29,8 @@ layout: default
 </div>
     {{ content }}
 <br />
+{% if page.comments %}
+{% include comments.html %}
+{% endif %}
 </div>
 </div>
