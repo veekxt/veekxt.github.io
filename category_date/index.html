@@ -8,7 +8,7 @@ layout: list
 {% for post in site.posts %}
 {% capture t_date %}{{post.date | date:"%Y年%m月"}}{% endcapture %}
 {% if t_date == s_date %}{% else %}
-<li id='{{ t_date }}' class='title_of_list'><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a></li>
+<li id='{{ t_date }}' class='title_of_list'>{{ t_date }}</li>
 {% endif %}
 {% capture s_date %}{{ t_date }}{% endcapture %}
 <li>
