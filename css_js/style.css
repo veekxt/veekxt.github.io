@@ -246,6 +246,7 @@ border-width:1px;
 padding:10px;
 }
 
+.page-content img{max-width:640px;display:block;margin:4px auto;box-shadow:#999 1px 1px 4px;}
 
 .post_info{font-size:13px;}
 .cate_info{font-size:13px;float:right;}
