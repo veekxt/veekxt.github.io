@@ -45,6 +45,7 @@ layout: mine
 [Brainfuck主页-一种极小的语言](http://www.muppetlabs.com/~breadbox/bf/)  
 [tetris-wiki-俄罗斯方块wiki](http://tetris.wikia.com/wiki/Tetris_Guideline)  
 [unicode查询](http://www.unicode.org/charts/)  
+[反向查询unicode](http://www.unicode.org/cgi-bin/GetUnihanData.pl)  
 [深入浅出 Greasemonkey](http://old.sebug.net/paper/books/greasemonkey/#first.divein)  
 [标准化的markdown](http://commonmark.org)  
 
