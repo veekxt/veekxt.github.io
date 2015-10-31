@@ -16,7 +16,7 @@ comments: no
 {% endif %}  
 百度：[veekxt](http://www.baidu.com/p/veekxt)
 
-此网站：[{{ site.name }}](http://{{ site.myurl }})
+此网站：<http://{{ site.myurl }}>
 
 邮箱：[{{ site.email }}](mailto:{{ site.email }})
 
