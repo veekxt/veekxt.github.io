@@ -6,7 +6,7 @@ comments: yes
 
 夜明け
 
-<audio src="http://7xj4v0.com1.z0.glb.clouddn.com/菊谷知樹%20-%20夜明け.mp3" controls="controls" ></audio>
+<audio src="http://7xj4v0.com1.z0.glb.clouddn.com/周杰伦%20-%20夜曲.mp3" controls="controls" ></audio>
 
 Nightwish - I Want My Tears Back
 
