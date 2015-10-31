@@ -1,6 +1,7 @@
 <head> 
-  <title>{{ page.title }}</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+  <title>{% if page.path == 'index.html' %}{{ site.name }} - Home{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/ac.png">
   <link rel="stylesheet" href="{{ "/css_js/style.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css_js/highlight.css" | prepend: site.baseurl }}">
 </head>
