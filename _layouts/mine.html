@@ -17,11 +17,12 @@ layout: default
 </div>
 <div id=article>
 
+{% if page.title %}
 <div class='article_title'>
 <h1>{{ page.title }}</h1>
 <hr />
 </div>
-
+{% endif %}
   <article class="page-content">
     {{ content }}
   </article>
