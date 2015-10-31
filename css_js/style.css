@@ -122,7 +122,7 @@ pre code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;margin:.
 }
 #article {
 	float: left;
-	padding:5px 1em;
+	padding:5px 1.5em;
 	margin: 55px 7px 7px 40px;
 	border: 1px solid #d7d7d7;
 	background-color:#fff;
@@ -196,9 +196,6 @@ input[id=page_count] {
 	width: 30px;
 }
 
-article{
-    padding:2px 2px;
-}
 .page_nav{display:block;margin-left:2em;}
 footer {
     margin-top:1em;
