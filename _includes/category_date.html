@@ -14,7 +14,7 @@
 {% else %}
     {% if post.next ！= null %} ({{ count }})</li>
     {% endif %}
-    <li><a href='{{ site.baseurl }}/category_date#{{ t_date }}'>{{ t_date }}</a>
+    <li><a href='{{ site.baseurl }}/category_date#mao_{{ post.date  | date:"%Y_%m" }}'>{{ t_date }}</a>
     {% capture count %}1{% endcapture %}
     {% if post.previous == null %} ({{ count }})</li>
     {% endif %}
