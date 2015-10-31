@@ -3,7 +3,7 @@ title: 在线书签
 layout: mine
 ---
 
-教程类的文章见<{{ site.baseurl }}/mine/course_mark.html/>
+教程类的文章见<http://{{ site.myurl }}/mine/course_mark.html/>
 
 ### ------其他类------
 
