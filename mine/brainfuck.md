@@ -5,7 +5,7 @@ comments: yes
 ---
 
 <p>某些代码可能使脚本崩溃（比如死循环）。</p>
-<p><a href="http://{{ site.tkurl }}/other/tools/some_bf.html">一些例子在这。</a></p>
+<p><a href="{{ site.myurl }}/mine/xxx/some_bf.html">一些例子在这。</a></p>
 <script>
 //this code come from http://esoteric.sange.fi/brainfuck/impl/interp/i.html 
 function x(c){
