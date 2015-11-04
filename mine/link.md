@@ -18,6 +18,7 @@ layout: mine
 [索尼子的贴吧云签到](http://tieba.supvesonico.moe/index.php)  
 [ubuntu代码板](http://paste.ubuntu.com)  
 [阿里矢量图标库](http://iconfont.cn/)  
+[拜见女皇陛下-u17漫画](http://www.u17.com/comic/190.html)  
 
 ### ------技术类-------
 
@@ -51,4 +52,5 @@ layout: mine
 [tetris-wiki-俄罗斯方块wiki](http://tetris.wikia.com/wiki/Tetris_Guideline)  
 [unicode查询](http://www.unicode.org/charts/)  
 [反向查询unicode](http://www.unicode.org/cgi-bin/GetUnihanData.pl)  
+[rust中文社区](http://www.rust.cc/)  
 
