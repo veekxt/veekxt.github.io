@@ -15,10 +15,13 @@ layout: mine
 [Bilibili-弹幕视频网站](http://www.bilibili.com/)  
 [动漫家族-动画漫画下载](http://www.acgfamily.com/)  
 [linux吧](http://tieba.baidu.com/f?kw=linux)  
-
+[索尼子的贴吧云签到](http://tieba.supvesonico.moe/index.php)  
+[ubuntu代码板](http://paste.ubuntu.com)  
+[阿里矢量图标库](http://iconfont.cn/)  
 
 ### ------技术类-------
 
+[gimp中文站](http://www.gimpbox.com/)  
 [commenmark在线预览-编译](http://commonmark.org)  
 [开源中国- 在线工具](http://tool.oschina.net/)  
 [另一些在线工具](http://tool.lu/)  
@@ -40,6 +43,7 @@ layout: mine
 [Pygments语法高亮支持的语言列表](http://pygments.org/docs/lexers/)  
 [七牛云-云存储](http://qiniu.com)  
 [w3cschool-web相关教程](http://www.w3cschool.cc/)  
+[MDN web技术文档](https://developer.mozilla.org/zh-CN/docs/Web)  
 [HTML色彩代码](http://html-color-codes.info/chinese/)  
 [DNSpod-免费DNS](https://www.dnspod.cn/)  
 [酷壳-某技术博客](http://coolshell.cn/)  
