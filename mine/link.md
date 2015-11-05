@@ -18,6 +18,7 @@ layout: mine
 [索尼子的贴吧云签到](http://tieba.supvesonico.moe/index.php)  
 [拜见女皇陛下-u17漫画](http://www.u17.com/comic/190.html)  
 [国家地理中文](http://www.nationalgeographic.com.cn/)  
+[Stack Overflow](http://stackoverflow.com)  
 
 ### ------技术类-------
 
