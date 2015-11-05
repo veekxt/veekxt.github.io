@@ -15,6 +15,7 @@ layout: mine
 [QT5基础教程](http://bbs.qter.org/forum.php?mod=forumdisplay&fid=52)  
 [Qt学习之路2-Qt教程](http://www.devbean.net/2012/08/qt-study-road-2-catelog/)  
 [深入浅出 Greasemonkey](http://old.sebug.net/paper/books/greasemonkey/#first.divein)  
+[一个html弹幕实现](http://cloudbbs.org/forum.php?mod=viewthread&tid=21977)  
 
 ### ------其他类------
 
