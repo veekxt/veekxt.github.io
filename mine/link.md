@@ -16,13 +16,13 @@ layout: mine
 [动漫家族-动画漫画下载](http://www.acgfamily.com/)  
 [linux吧](http://tieba.baidu.com/f?kw=linux)  
 [索尼子的贴吧云签到](http://tieba.supvesonico.moe/index.php)  
-[ubuntu代码板](http://paste.ubuntu.com)  
-[阿里矢量图标库](http://iconfont.cn/)  
 [拜见女皇陛下-u17漫画](http://www.u17.com/comic/190.html)  
 [国家地理中文](http://www.nationalgeographic.com.cn/)  
 
 ### ------技术类-------
 
+[ubuntu代码板](http://paste.ubuntu.com)  
+[阿里矢量图标库](http://iconfont.cn/)  
 [gimp中文站](http://www.gimpbox.com/)  
 [commenmark在线预览-编译](http://commonmark.org)  
 [开源中国- 在线工具](http://tool.oschina.net/)  
