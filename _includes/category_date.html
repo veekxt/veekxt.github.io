@@ -1,28 +1,10 @@
-<div class="other"> 
-<ul> 
-<li class='title_of_list'><span>日期归档</span></li> 
-
-{% assign count = 1 %}
-{% assign s_date = null %}
-{% assign t_date = null %}
-{% for post in site.posts %}
-{% capture t_date %}{{post.date | date:"%Y年%m月"}}{% endcapture %}
-{% if t_date == s_date %}
-{% capture count %}{{ count | plus:1 }}{% endcapture %}
-{% if post.previous == null %} ({{ count }})</li>
-{% endif %}
-{% else %}
-{% if post.next ！= null %} ({{ count }})</li>
-{% endif %}<li><a href='{{ site.baseurl }}/category_date#mao_{{ post.date  | date:"%Y_%m" }}'>{{ t_date }}</a>
-{% capture count %}1{% endcapture %}
-{% if post.previous == null %} ({{ count }})</li>
-{% endif %}
-{% endif %}
-{% capture s_date %}{{ t_date }}{% endcapture %}
-{% endfor %}
-</ul> 
-</div>
-
-
-
-
+<div class="other">
+<ul>
+<li class='title_of_list'>
+<span>日期归档</span></li>
+{% assign count = 1 %} {% assign s_date = null %} {% assign t_date = null %} {% for post in site.posts %} {% capture t_date %}{{post.date | date:"%Y年%m月"}}{% endcapture %} {% if t_date == s_date %} {% capture count %}{{ count | plus:1 }}{% endcapture %} {% if post.previous == null %} ({{ count }})</li>
+{% endif %} {% else %} {% if post.next ！= null %} ({{ count }})</li>
+{% endif %}<li><a href='{{ site.baseurl }}/category_date#mao_{{ post.date  | date:"%Y_%m" }}'>{{ t_date }}</a> {% capture count %}1{% endcapture %} {% if post.previous == null %} ({{ count }})</li>
+{% endif %} {% endif %} {% capture s_date %}{{ t_date }}{% endcapture %} {% endfor %}
+</ul>
+</div>    
