@@ -27,7 +27,6 @@ url: <http://veekxt.com>
 └── _posts          #所有文章
 
 _includes目录文件
-
 .
 ├── category_date.html  #侧栏日期分类框
 ├── category.html       #侧栏目录分类框
@@ -37,7 +36,6 @@ _includes目录文件
 └── nav.html            #导航栏
 
 _layouts目录文件
-
 .
 ├── default.html        #模板：包含导航条和页脚
 ├── list.html           #模板：继承自default，包含侧栏两种分类和主体（应是一个列表）
