@@ -22,6 +22,7 @@ layout: mine
 
 ### ------技术类-------
 
+[User-Agent检测](http://www.useragentstring.com)  
 [ubuntu代码板](http://paste.ubuntu.com)  
 [阿里矢量图标库](http://iconfont.cn/)  
 [gimp中文站](http://www.gimpbox.com/)  
