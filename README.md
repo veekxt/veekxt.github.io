@@ -6,6 +6,8 @@ url: <http://veekxt.com>
 
 目录结构：
 
+```
+
 ├── category        #分类页面
 ├── category_date   #按日期分类页面
 ├── css_js          #css样式和js
@@ -24,6 +26,7 @@ url: <http://veekxt.com>
 │   └── tell_me     #留言
 └── _posts          #所有文章
 
+```
 
 veekxt
 
