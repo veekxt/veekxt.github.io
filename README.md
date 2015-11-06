@@ -26,6 +26,25 @@ url: <http://veekxt.com>
 │   └── tell_me     #留言
 └── _posts          #所有文章
 
+_includes目录文件
+
+.
+├── category_date.html  #侧栏日期分类框
+├── category.html       #侧栏目录分类框
+├── comments.html       #多说评论插件
+├── footer.html         #页脚
+├── head.html           #head标签
+└── nav.html            #导航栏
+
+_layouts目录文件
+
+.
+├── default.html        #模板：包含导航条和页脚
+├── list.html           #模板：继承自default，包含侧栏两种分类和主体（应是一个列表）
+├── mine.html           #模板：继承自default，包含侧栏杂项列表和主体
+├── page.html           #模板：继承自default，包含侧栏两种分类和主体（应是一篇文章）
+└── post.html           #模板：继承自page，在page基础上增加了上一篇及下一篇链接
+
 ```
 
 veekxt
