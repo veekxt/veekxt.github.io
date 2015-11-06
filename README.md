@@ -7,7 +7,7 @@ url: <http://veekxt.com>
 目录结构：
 
 ```
-
+/
 ├── category        #分类页面
 ├── category_date   #按日期分类页面
 ├── css_js          #css样式和js
