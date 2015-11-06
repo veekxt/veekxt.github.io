@@ -7,6 +7,14 @@ layout: mine
 
 --:->待完成
 
+--Python-urllib
+
+--贴吧抓取，post相关
+
+--Http/1.1 协议
+
+--Python多线程、多进程
+
 --字符画生成相关
 
 --实现bf和sunday算法，字符串匹配
