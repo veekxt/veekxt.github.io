@@ -7,19 +7,27 @@ layout: mine
 
 --:->待完成
 
---Python-urllib
+--mysql基础
+
+--php基础
+
+--apache基础
 
 --贴吧抓取，post相关
-
---Http/1.1 协议
 
 --Python多线程、多进程
 
 --字符画生成相关
 
+--排序算法
+
 --实现bf和sunday算法，字符串匹配
 
 --贴吧api，获取精品分类，获取前n个帖子，and more
+
+++Python-urllib
+
+++Http/1.1 协议
 
 ++发个文章更新C与C++形式相同之处的不同之处
 
