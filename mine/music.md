@@ -27,3 +27,9 @@ Turn
 <audio src="
 http://m2.music.126.net/IxNIW-JpdW0Pas07hBauoA==/2026399930024021.mp3"
 controls="controls" >
+
+Fade
+<audio src="
+http://m2.music.126.net/jmbK0BejI2Q978LOc8YYOQ==/6622358535602246.mp3"
+controls="controls" >
+
