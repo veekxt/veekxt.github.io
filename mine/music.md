@@ -1,5 +1,5 @@
 ---
-title: 一些我喜欢的音乐^_^
+title: 放一些音乐在这里^_^
 layout: mine
 comments: yes
 ---
@@ -18,4 +18,16 @@ Next to you
 
 <audio src="
 http://183.131.116.50/m10.music.126.net/20160226145157/1ae5cf90e77f32def9ef650d966a2126/ymusic/160f/4167/5f63/b3d5a890d282eee87ee8a25279c9d54e.mp3
+controls="controls" />
+
+Everytime you kiss me
+
+<audio src="
+http://183.134.28.34/m10.music.126.net/20160226145355/ca087f1af587d87d0b048f5482c3b7d6/ymusic/9579/ebe6/c9a1/564f59b3e6d90d51a21379b49a0b4c26.mp3
+controls="controls" />
+
+Turn
+
+<audio src="
+http://122.228.237.131/m10.music.126.net/20160226145350/ecf15ab12ea6fe2642d0a87e95cc58e2/ymusic/a7e9/7690/96e2/c4957e3f6997604c873a2afb5bcb45da.mp3
 controls="controls" />
