@@ -23,6 +23,7 @@ layout: mine
 
 ### ------技术类-------
 
+[ascii流程图制作](http://asciiflow.com/)  
 [某HTML5音乐播放器](http://www.schillmania.com/projects/soundmanager2/)  
 [User-Agent检测](http://www.useragentstring.com)  
 [ubuntu代码板](http://paste.ubuntu.com)  
