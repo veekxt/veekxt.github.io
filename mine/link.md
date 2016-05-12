@@ -23,6 +23,7 @@ layout: mine
 
 ### ------技术类-------
 
+[在线编辑器etherpad](http://etherpad.org/)  
 [ascii流程图制作](http://asciiflow.com/)  
 [某HTML5音乐播放器](http://www.schillmania.com/projects/soundmanager2/)  
 [User-Agent检测](http://www.useragentstring.com)  
@@ -58,5 +59,5 @@ layout: mine
 [tetris-wiki-俄罗斯方块wiki](http://tetris.wikia.com/wiki/Tetris_Guideline)  
 [unicode查询](http://www.unicode.org/charts/)  
 [反向查询unicode](http://www.unicode.org/cgi-bin/GetUnihanData.pl)  
-[rust中文社区](http://www.rust.cc/)  
+[rust中文社区](https://rust-china.org/)  
 
