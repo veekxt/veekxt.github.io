@@ -23,6 +23,7 @@ layout: mine
 
 ### ------技术类-------
 
+[快速代码索引](https://github.com/OpenGrok/OpenGrok)  
 [变量命名](http://unbug.github.io/codelf/)  
 [在线编辑器etherpad](http://etherpad.org/)  
 [ascii流程图制作](http://asciiflow.com/)  
