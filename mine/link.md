@@ -21,6 +21,7 @@ layout: mine
 [国家地理中文](http://www.nationalgeographic.com.cn/)  
 [Stack Overflow](http://stackoverflow.com)  
 [图灵社区-《自制编程语言》](http://www.ituring.com.cn/book/1159)  
+[emoji-cheat-sheet](http://www.emoji-cheat-sheet.com/)  
 
 ### ------技术类-------
 
