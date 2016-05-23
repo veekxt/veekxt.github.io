@@ -43,6 +43,7 @@ layout: mine
 [Linux中文man在线手册](http://os.51cto.com/linuxman/)  
 [Linux命令中文解释](http://man.linuxde.net/dd)  
 [解释一个Shell命令](http://explainshell.com)  
+[RustLang](https://www.rust-lang.org)  
 [Python官方手册](https://docs.python.org/3/index.html)  
 [Python-flask文档 - 中文](http://www.pythondoc.com/)  
 [python爬虫简单抓取页面](http://www.cnblogs.com/txw1958/archive/2011/12/21/2295698.html)  
