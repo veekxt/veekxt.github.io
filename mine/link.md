@@ -12,6 +12,7 @@ layout: mine
 
 >[AcFun Banner专题](http://www.acfun.tv/v/ac1881444)
 
+[新宋吧](http://tieba.baidu.com/f?kw=%D0%C2%CB%CE)  
 [delete so 找回AC被删的评论](http://delete.so/)  
 [Bilibili-弹幕视频网站](http://www.bilibili.com/)  
 [动漫家族-动画漫画下载](http://www.acgfamily.com/)  
