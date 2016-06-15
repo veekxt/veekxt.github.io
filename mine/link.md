@@ -26,7 +26,7 @@ layout: mine
 [赛事信息图制作](http://challonge.com/zh_CN)  
 
 ### ------技术类-------
-
+[code review for git](https://www.gerritcodereview.com/)  
 [快速代码索引](https://github.com/OpenGrok/OpenGrok)  
 [变量命名](http://unbug.github.io/codelf/)  
 [在线编辑器etherpad](http://etherpad.org/)  
