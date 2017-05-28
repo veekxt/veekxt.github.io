@@ -1,6 +1,6 @@
 VeekXT 的个人主页
 
-url: <http://veekxt.com>
+url: <http://gh.veekxt.com>
 
 记录一些乱七八糟的东西
 
